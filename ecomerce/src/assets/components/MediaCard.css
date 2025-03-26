@@ -1,0 +1,46 @@
+.white-theme {
+    background-color: #ffffff;
+    color: black;
+}
+
+.white-theme .card-title,
+.white-theme .card-price {
+    color: black;
+}
+
+.white-theme .MuiCardMedia-root {
+    border: 1px solid black;
+}
+
+.black-theme {
+    background-color: #000000;
+    color: white;
+}
+
+.black-theme .card-title,
+.black-theme .card-price {
+    color: white;
+}
+
+.black-theme .MuiCardMedia-root {
+    border: 1px solid white;
+}
+
+.media-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.media-card p {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.media-card:hover {
+    background-color: #f5f5f5;
+}
+
